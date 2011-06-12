@@ -13,5 +13,5 @@ void to_roman(int,char*,struct mode);
 int hodie_isleap(int);
 void print_usage(void);
 void print_version(void);
-int parse_date(int,char**,int,struct tm*);
+int parse_date(char*,char*,struct tm*);
 

@@ -439,7 +439,7 @@ void build_semel(int n, char* str, mode m)
     
     if(n==0)
     {
-	sprintf(str,"");
+        str[0]=0;
 	return;
     }
     if(n==1000)
