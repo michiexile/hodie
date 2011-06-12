@@ -7,23 +7,14 @@ What does it do?
      has it in grammatically correct latin :-)
 
 How do I install it?
-     As I still haven't had the possibility to check out exactly how
-     autoconf/automake works, you'll still have to take a look at the
-     Makefile. 
+     Hodie now has support for autoconf/automake, so you install it
+     just as you would any source tarball.
 
-     It's designed to work well with my own, local linux system and
-     the way _I_ run it. This means, that above all else, you might
-     wish to take a *good* look at the placements of files (/usr vs
-     /usr/local) and other such issues. All this is done at the top of
-     the Makefile.
+     Most cases will install cleanly with the sequence 
 
-     Once you feel at ease (or if you're foolish enough to trust me
-     with my judgement), you do
-
-	make	# (make all and make hodie also work)
-	make install
-
-     and you should be ready to go.
+           ./configure
+           make
+           make install
 
 Dependencies???
      I do assume, that you have a halfways decent UNIX-system,
@@ -47,6 +38,6 @@ Licenses?
 
 Who did this?
      Responsible for this hacklet is
-     Mikael Johansson	  <mikael@johanssons.org>
+     Mikael Vejdemo-Johansson	  <mikael@johanssons.org>
 
      Please do e-mail... I'm only happy for feedback :-)

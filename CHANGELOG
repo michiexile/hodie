@@ -76,3 +76,8 @@
 	but the actual program is not yet implemented. (Due to large
 	parts of my audience in this question, a Windoze port of hodie
 	is coming up :-)
+
+1.5
+        Replaced Makefile with autoconf/automake
+
+        Replaced option parsing with getopt
