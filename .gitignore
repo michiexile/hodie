@@ -1,0 +1,10 @@
+aclocal.m4
+autom4te.cache/*
+*.swp
+config.h
+config.status
+.deps/
+/src/Makefile
+/src/*.o
+/src/hodie
+stamp-*
