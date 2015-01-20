@@ -134,8 +134,12 @@ main(int argc, char** argv)
         strncpy(dateval,argv[optind++],16);
     }
 
-    if(custom)
-        parse_date(datetype, dateval, p_ts);
+    if(custom) {
+      parse_date(datetype, dateval, p_ts);
+      if (auc) {
+        p_ts->tm_year=p_ts->tm_year+auc_base;
+      }
+    }
 
     if(hodie_isleap(p_ts->tm_year)==1)
        leap=1;
